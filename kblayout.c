@@ -13,8 +13,8 @@ gcc -O2 -s -lX11 -lXft `pkg-config --cflags freetype2` -o kblayout kblayout.c
 #define WIN_POSITION_Y 70
 #define WIN_WIDTH 32
 #define WIN_HEIGHT 17
-#define BG_COLOR "#191b1d" /* #e8e8e7 */
-#define FG_COLOR "#dfdfdf" /* #2e3436 */
+#define BG_COLOR "#191B1D" /* #E8E8E7 */
+#define FG_COLOR "#DFDFDF" /* #2E3436 */
 #define FONT "monospace:size=10"
 #define NUM_CHARS 3
 /*
