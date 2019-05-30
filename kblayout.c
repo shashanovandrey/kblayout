@@ -10,7 +10,7 @@ gcc -O2 -s -lX11 -lXft `pkg-config --cflags freetype2` -o kblayout kblayout.c
 #include <X11/Xft/Xft.h>
 
 #define WIN_POSITION_X 600
-#define WIN_POSITION_Y 0
+#define WIN_POSITION_Y 70
 #define WIN_WIDTH 32
 #define WIN_HEIGHT 17
 #define BG_COLOR "#191B1D" /* #E8E8E7 */
@@ -21,7 +21,8 @@ gcc -O2 -s -lX11 -lXft `pkg-config --cflags freetype2` -o kblayout kblayout.c
 #define CHARS_POS_X 4
 #define CHARS_POS_Y 12
 */
-int main(int argc __attribute__((unused)), char *argv[] __attribute__((unused)))
+
+int main(void)
 {
     Display *dpy;
     int dummy;
