@@ -6,8 +6,8 @@ gcc -O2 -s -lX11 -lXft `pkg-config --cflags freetype2` -o kblayout kblayout.c
 */
 
 #include <ctype.h>
-#include <X11/XKBlib.h>
 #include <X11/Xft/Xft.h>
+#include <X11/XKBlib.h>
 
 #define WIN_POSITION_X 600
 #define WIN_POSITION_Y 70
